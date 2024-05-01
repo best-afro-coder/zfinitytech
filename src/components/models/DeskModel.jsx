@@ -31,7 +31,7 @@ const DeskModel = React.memo(function DeskModel(props) {
      dispose={null}
      ref={modelRef}
      position={[0, 0, 0]}
-     scale={[0.05, 0.05, 0.05]}
+     scale={[0.03, 0.03, 0.03]}
      rotation={[0.25, 0, 0]}
      >
       <mesh geometry={nodes.Object_4.geometry} material={materials['CHAIR-0']} position={[16.678, 8.418, 24.507]} rotation={[-Math.PI, -0.592, -Math.PI]} scale={[2.549, 0.243, 2.549]} />
