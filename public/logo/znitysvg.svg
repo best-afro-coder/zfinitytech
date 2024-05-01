@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.20057,0,0,1.77228,-153.271,-841.367)">
+        <ellipse cx="534.066" cy="759.341" rx="367.033" ry="130.769" style="fill:rgb(81,146,50);"/>
+    </g>
+    <g transform="matrix(1.13348,0,0,1.75686,-142.065,-827.643)">
+        <ellipse cx="534.066" cy="759.341" rx="367.033" ry="130.769" style="fill:rgb(50,115,146);"/>
+    </g>
+    <g transform="matrix(1.17938,0,0,1.36846,-128.996,-417.607)">
+        <text x="283.516px" y="740.659px" style="font-family:'CopperplateGothic-Bold', 'Copperplate Gothic Bold', sans-serif;font-size:150px;fill:white;">FINIT<tspan x="729.781px " y="740.659px ">Y</tspan></text>
+    </g>
+    <g transform="matrix(1.17938,0,0,1.39596,-362.28,-412.354)">
+        <text x="432.967px" y="679.121px" style="font-family:'CopperplateGothic-Bold', 'Copperplate Gothic Bold', sans-serif;font-size:150px;fill:white;">Z</text>
+    </g>
+    <g transform="matrix(1.15615,0,0,1.36846,-90.8945,-116.847)">
+        <text x="301.099px" y="573.626px" style="font-family:'CopperplateGothic-Bold', 'Copperplate Gothic Bold', sans-serif;font-size:41.667px;fill:white;">TEC<tspan x="395.398px 431.144px 467.277px 502.922px 531.954px 567.599px " y="573.626px 573.626px 573.626px 573.626px 573.626px 573.626px ">HNOLOG</tspan>IES</text>
+    </g>
+</svg>
