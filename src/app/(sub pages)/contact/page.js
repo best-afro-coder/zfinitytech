@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bg from "../../../../public/background/ims4.png";
+import bg from "../../../../public/background/op3.png";
 import Form from "@/components/contact/Form";
 import Footer from "@/components/Foot";
 
