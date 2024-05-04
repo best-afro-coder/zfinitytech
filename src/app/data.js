@@ -24,6 +24,7 @@ export const projectsData = [
     description: "An online Invoice Generator",
     date: "2023-03-29",
     demoLink: "https://e-nvoice.zfinitytech.com",
+    imageurl: "/projects/envoice.png",
   },
   {
     id: 2,
@@ -31,6 +32,7 @@ export const projectsData = [
     description: "An amazing online App for business cards generation",
     date: "2023-04-06",
     demoLink: "https://e-card.zfinitytech.com",
+    imageurl: "/projects/ecard.svg",
   },
 
   {
@@ -39,6 +41,7 @@ export const projectsData = [
     description: "An amazing qr code generator",
     date: "2022-04-22",
     demoLink: "https://qrcode.zfinitytech.com",
+    imageurl: "/projects/qr-code.png",
   },
 
   {
@@ -47,6 +50,7 @@ export const projectsData = [
     description: "An App that lists all your links",
     date: "2022-04-22",
     demoLink: "https://mylinks.zfinitytech.com",
+    imageurl: "/projects/mylinks.png"
   },
 
   {
@@ -55,56 +59,42 @@ export const projectsData = [
     description: "We did some work for IFibreythu, an engineering company",
     date: "2024-04-22",
     demoLink: "https://ifibreyethu.co.za",
+    imageurl: "/projects/ifibre.svg"
   },
+
   {
     id: 6,
-    name: "Pisco",
-    description: "We helped Pisco Pvt Ltd, and Engineering company with tech expertise",
-    date: "2023-06-20",
-    demoLink: "https:pisco.co.za",
-  },
-  {
-    id: 7,
-    name: "Cooking Got Us Together",
-    description: "We were the IT partner of CGUT when they launched their cook book",
-    date: "2022-09-10",
-    demoLink: "https://cgut.co.za",
-  },
-  {
-    id: 8,
     name: "AZ Group",
     description: "We are the IT consultency for AZ Group",
     date: "From 2020-",
     demoLink: "https://azgroup.co.za",
+    imageurl: "/projects/az.png"
   },
+  
   {
-    id: 9,
-    name: "Mmakgoge Group",
-    description: "We helped Mmakgoge Group mordenize their website",
-    date: "2022-07-19",
-    demoLink: "https://mmakgoge.co.za",
-  },
-  {
-    id: 10,
+    id: 7,
     name: "Novels Mobile App",
     description: "Novels by Levis Mahlatini",
     date: "2017-",
     demoLink: "https://levismahlatini.com/novels",
+    imageurl: "/projects/lm.png"
   },
   {
-    id: 11,
+    id: 8,
     name: "Online Magazine",
     description: "We created a business Magazine",
     date: "2024-02-18",
-    demoLink: "https://buzims.mgzine.co.za",
+    demoLink: "https://bizims.mgzine.co.za",
+    imageurl: "/projects/bizims.png"
   },
 
   {
-    id: 12,
+    id: 9,
     name: "Exclusive Projects",
     description: "We created this amazing website",
     date: "2023-01-15",
     demoLink: "https://xclusiveprojects.co.za",
+    imageurl: "/projects/ex.svg"
   },
  
   

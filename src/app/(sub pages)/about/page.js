@@ -1,11 +1,11 @@
 import Image from "next/image";
-import bg from "../../../../public/background/ims2.png";
+import bg from "../../../../public/background/products.png";
 import RenderModel from "@/components/RenderModel";
 // import HatModel from "@/components/models/HatModel";
 import AboutDetails from "@/components/about";
-import Footer from "@/components/Foot";
+import Footer from "@/components/footer";
 import dynamic from "next/dynamic";
-const IslandModel = dynamic(() => import("@/components/models/IslandModel"), {
+const GlobeModel = dynamic(() => import("@/components/models/GlobeModel"), {
   ssr: false,
 });
 
@@ -26,7 +26,7 @@ export default function Home() {
 
       <div className="w-full h-3/5 xs:h-3/4 sm:h-screen absolute top-1/2 -translate-y-1/2 left-0 z-10">
         <RenderModel>
-          <IslandModel />
+          <GlobeModel />
         </RenderModel>
       </div>
 

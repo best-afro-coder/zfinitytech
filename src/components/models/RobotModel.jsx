@@ -13,8 +13,7 @@ const Robot = React.memo(function Robot(props) {
   const modelRef = useRef();
 
   useFrame((state) => {
-    modelRef.current.position.y =
-      -1.5 + Math.sin(state.clock.elapsedTime) * 0.15;
+    modelRef.current.rotation.y+=0.1;
   });
 
   return (

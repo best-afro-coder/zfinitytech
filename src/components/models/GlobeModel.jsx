@@ -20,9 +20,9 @@ const GlobeModel = React.memo(function GlobeModel(props) {
       {...props}
       dispose={null}
       ref={modelRef}
-      scale={[0.5, 0.5, 0.5]}
+      scale={[0.007, 0.007, 0.007]}
       rotation={[0.4, -1, 0]}
-      position={[0, -1, 0]}
+      position={[0, 0, 0]}
     >
      <mesh 
       geometry={nodes.Cylinder__0.geometry} 

@@ -6,7 +6,7 @@ import Footer from "@/components/Foot";
 
 import dynamic from "next/dynamic";
 
-const WizardModel = dynamic(() => import("@/components/models/Wizard"), {
+const WDModel = dynamic(() => import("@/components/models/WDModel"), {
   ssr: false,
 });
 
@@ -28,7 +28,7 @@ export default function Home() {
         
         <Navigation />
         <RenderModel>
-        <WizardModel />
+        <WDModel />
         </RenderModel>
         <Footer />
       </div>

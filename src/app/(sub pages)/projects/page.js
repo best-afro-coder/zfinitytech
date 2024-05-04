@@ -3,7 +3,7 @@ import bg from "../../../../public/background/home.png";
 import ProjectList from "@/components/projects";
 import { projectsData } from "../../data";
 import RenderModel from "@/components/RenderModel";
-import Footer from "@/components/Foot";
+import Footer from "@/components/footer";
 // import Staff from "@/components/models/Staff";
 import dynamic from "next/dynamic";
 
@@ -18,6 +18,8 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+
+    <h1 className="font-bold  text-2xl xs:text-3xl sm:text-4xl  lg:text-5xl text-accent"> Some of our projects </h1>
       <Image
         src={bg}
         alt="Next.js Portfolio website's about page background image"

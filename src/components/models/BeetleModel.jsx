@@ -595,5 +595,5 @@ export function BeetleModel(props) {
     </group>
   )
 }
-
+export default BeetleModel;
 useGLTF.preload('/models/beetle-transformed.glb')

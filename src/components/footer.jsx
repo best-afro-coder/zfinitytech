@@ -1,14 +1,12 @@
 import React from "react";
 import ItemLayout from "./about/ItemLayout";
 import Link from "next/link";
-import Image from "next/image";
-import bg from "../../public/background/about-background.png";
 
 const Footer = () => {
   return (
-    <section className="py-20 px-20">
+    <section className="py-2 px-2">
 
-      <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full bg-[url('/background/op5.png')] bg-cover  ">
+      <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full">
         <ItemLayout
           className={
             " col-span-full lg:col-span-8 row-span-2 flex-col items-start"

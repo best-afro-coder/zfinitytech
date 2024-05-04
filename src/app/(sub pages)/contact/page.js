@@ -1,7 +1,7 @@
 import Image from "next/image";
 import bg from "../../../../public/background/op3.png";
 import Form from "@/components/contact/Form";
-import Footer from "@/components/Foot";
+import Footer from "@/components/footer";
 
 export const metadata = {
   title: "Contact",
@@ -24,13 +24,10 @@ export default function Contact() {
             Get in touch
           </h1>
           <p className="text-center font-light text-sm xs:text-base">
-            If this website has impressed you well, we have barely scratched the surface of what we can do.
-            This website could be yours. This is just a tip of the iceberg, our mobile and desktop 
-            Applications are equally impressive. Do not take our word for it, we have traceable references.
-            ZFinity has worked with reputable engineering and insurance companies which include Pisco Engineering Pvt Ltd.,
-            IFibreyethu Pvt Ltd. and Toane Insurance. Basically, if you need help with anything IT related, be it
+            If this website has impressed you well, we have barely scratched the surface of what we can do, our mobile and desktop 
+            Applications are equally impressive. Do not take our word for it, we have traceable references. If you need help with anything IT related, be it
             Website development, Application development or Database Management System development do not hesitate to get in touch with us.
-            We are looking forward to hearing from you. Your feedback is valuable. Use the form below to send us an email message.
+            Use the form below to send us an email message.
             </p>
         </div>
         <Form />
