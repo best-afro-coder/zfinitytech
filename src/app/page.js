@@ -1,12 +1,12 @@
 import Image from "next/image";
-import bg from "../../public/background/contact.png";
+import bg from "../../public/background/op3.png";
 import RenderModel from "@/components/RenderModel";
 import Navigation from "@/components/navigation";
-import Footer from "@/components/Foot";
+import Footer from "@/components/Foo";
 
 import dynamic from "next/dynamic";
 
-const WDModel = dynamic(() => import("@/components/models/WDModel"), {
+const Wizard = dynamic(() => import("@/components/models/Wizard"), {
   ssr: false,
 });
 
@@ -28,7 +28,7 @@ export default function Home() {
         
         <Navigation />
         <RenderModel>
-        <WDModel />
+        <Wizard />
         </RenderModel>
         <Footer />
       </div>

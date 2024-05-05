@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="px-2 pt-5">
 
-      <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full bg-[url('/background/op6.png')] bg-cover  ">
+      <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full bg-[url('/background/im5.png')] bg-cover  ">
 
       <ItemLayout
           className={

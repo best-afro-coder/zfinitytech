@@ -26,7 +26,7 @@ const DModel = React.memo(function DModel(props) {
          ref={modelRef}
          position={[0,0,0]}
          rotation={[0.25,0,0]}
-         scale={ [2,2,2] }
+         scale={ [,2,2] }
          >
       <mesh geometry={nodes.defaultMaterial.geometry} material={materials['01___Default']} scale={0.501} />
     </group>
