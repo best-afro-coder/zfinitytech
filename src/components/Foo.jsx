@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="px-2 pt-5">
 
-      <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full bg-[url('/background/im5.png')] bg-cover  ">
+      <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full bg-[url('/background/f1.png')] bg-cover  ">
 
       <ItemLayout
           className={
@@ -251,18 +251,7 @@ const Footer = () => {
           By optimizing daily operations, businesses can handle more workload effectively1
           </p>
         </ItemLayout>
-        <ItemLayout
-          className={
-            " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
-          }
-        >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            DATA SCIENCE
-          </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-            What are the uses of Data Science in Business?
-          </p>
-        </ItemLayout>
+        
         <ItemLayout
           className={
             " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
@@ -281,7 +270,7 @@ const Footer = () => {
             " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
           }
         >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
+          <h2 className="text-xl md:text-2xl text-left w-full capitalize">
             Predicting Outcomes and Trends
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base">
@@ -307,21 +296,6 @@ const Footer = () => {
             >
               So, get it touch with us
             </Link>
-        </ItemLayout>
-        
-       
-        <ItemLayout
-          className={
-            " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
-          }
-        >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Predicting Outcomes and Trends
-          </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-          Predictive modeling allows businesses to anticipate future trends, customer behavior, 
-          and market dynamics. This foresight aids in strategic planning and decision-making.
-          </p>
         </ItemLayout>
 
         <ItemLayout
