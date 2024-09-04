@@ -12,20 +12,118 @@ const AboutDetails = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            The Future of Technology
+            Energetic and vision driven
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            Our journey in Software Development, Mobile and Desktop App Development and 
-            Web development is powered by an array of mystical
-            tools and languages, with Java, Python, PHP, C, C++ and JavaScript casting the core of our
-            enchantments. We wield frameworks like React.js, Next.js, Django and Laravel with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower us to create fast, secure, and dynamic experiences,
-            while our design skills ensure every creation is not only functional
-            but visually captivating. Join us as we continue to explore new
-            spells and technologies to shape the future of IT.
+          EG Africa is an energetic, VISION driven, and multi-faceted company 
+          organization with roots in South Africa and a growing number of 
+          business interests in various countries. EG Africa comprises youth 
+          entrepreneurs who have a background in engineering
           </p>
+
+          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
+            Vision
+          </h2>
+          <p className="font-light  text-xs sm:text-sm md:text-base   ">
+          Our vision is to promote communities that are balanced in harnessing their 
+           cultural values and aspirations and advancing competitive modern-day 
+           technologies.
+          </p>
+          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
+            Mission
+          </h2>
+          <p className="font-light  text-xs sm:text-sm md:text-base   ">
+          To prosper together with clintele , shareholders, and employees, and to 
+          contribute to a
+          prosperous society
+          </p>
+          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
+            Our Offer
+          </h2>
+          <p className="font-light  text-xs sm:text-sm md:text-base   ">
+          At E.g Africa Limited, there are several values 
+          which we hold in high regard, and we expect 
+          these values in every member of our team. 
+          These values are charity, honesty, fortitude, 
+          reliability, integrity, temperance, faith, and 
+          hope. We believe that these values set us a 
+          step above the rest and allow our team members to provide high-quality security services in a very professional 
+          and efficient manner.
+          </p>
+          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
+            Company structure
+          </h2>
+          <p className="font-light  text-xs sm:text-sm md:text-base   ">
+          Our organogram is made up of an executive team and 
+technical team.
+The technical teams are headed by Heads of Divisions who are 
+specialists individuals experienced to manage and lead any 
+project scope in their jurisdiction.
+E.g Africa Consulting: The Mining Exploration is headed by a 
+seasoned Mechanical Engineer who has vast knowledge in the 
+mining industry in South Africa. Mainly in coal mining, Chrome 
+mining, gold mining, Power energy generation and power station 
+maintenance.
+E.g Africa Consulting: The Infrastructure and Engineering 
+division is headed by a Civil Engineer who has rich experience in a 
+wide range of Infrastructure development projects for both 
+public and government.
+His Project management skills cover most of what we do at E.g 
+Africa.
+
+          </p>
+
+          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
+            Our Values
+          </h2>
+          <p className="font-light  text-xs sm:text-sm md:text-base   ">
+          At E.g Africa 
+International Limited, there are several values which we hold in high
+regard, and we expect 
+these values in every 
+member of our team. These values are charity, honesty, 
+fortitude, reliability, 
+integrity, temperance, 
+faith, and hope. We
+believe that these values set us a step 
+above the rest, and allow our team members to provide 
+high quality security services in a very 
+professional and 
+efficient manner. CORPORATE PHILOSOPHY
+Based on the firm belief 
+of establishing long term sustainable relationships, we are a mid-size company with our eyes set on growing towards becoming one 
+of the most reliable names when it comes to quality solutions.
+          </p>
+
+          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
+            Our Principles
+          </h2>
+          <p className="font-light  text-xs sm:text-sm md:text-base   ">
+          Integrity and corporate governance – Our success is dependent on trust and 
+          support from all stakeholders, employees, suppliers, clients, contractors, 
+          government, and local communities. This is why we are committed to the highest 
+          standards of integrity and sustainability. We aim to have the maximum level of 
+          transparency in our dealings with government authorities and have zero tolerance 
+          for corruption. We believe that good corporate governance adds shareholder value 
+          and hence, our board is made up of well-qualified and experienced members in the 
+          mining industry and running companies. We are still looking into bettering our 
+          corporate governance by bringing on board more qualified personnel
+          </p>
+
+          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
+            Management Policy
+          </h2>
+          <p className="font-light  text-xs sm:text-sm md:text-base   ">
+          To take up the challenges of innovation and to respond to market needs as a diversified and multi-faceted trading company.
+          </p>
+          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
+            Action guideline
+          </h2>
+          <p className="font-light  text-xs sm:text-sm md:text-base   ">
+          To deliver customer satisfaction with creativity, innovation, sincerity and gratitude, 
+          and to act in compliance with the law and ethics.
+          </p>
+
         </ItemLayout>
 
         <ItemLayout

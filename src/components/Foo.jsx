@@ -1,12 +1,14 @@
 import React from "react";
 import ItemLayout from "./about/ItemLayout";
 import Link from "next/link";
+import logo from "../../public/images/logo_trans.svg";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <section className="px-2 pt-5">
 
-      <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full bg-[url('/background/f1.png')] bg-cover  ">
+      <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full bg-[url('/images/black.png')] bg-cover  ">
 
       <ItemLayout
           className={
@@ -14,18 +16,19 @@ const Footer = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            The Future of Technology
+          An energetic, vision driven and multifaceted Company
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base">
-            We are the best in Software Development, Data Science, Mobile and Desktop App Development and 
-            Web development. We use the latest technologies to develop fast, flexible and scalable products. 
-            Join us as we continue to explore new technologies to shape the future of IT.
+          Mining, Construction & maintenance, Civil engineering, Import and export,
+          Customs clearing, Freight logistics, Micro financing, Security,
+          Precious metals refinery, and Procurement & financing is our business.
+ 
           </p>
           <Link
               href={"/contact"}
               className="px-6 inline-block bg-[#c44141] mt-2 hover:bg-slate-800 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 text-center  text-white"
             >
-              Request a Quote
+              Get in touch
             </Link>
         </ItemLayout>
 
@@ -35,61 +38,85 @@ const Footer = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Why must a Business have a Website?
+            Our services in detail
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base">
-          1- Credibility and Professionalism: 
-                A well-designed website showcases your brand’s credibility and professionalism. 
-                It elevates your business by providing an intuitive user experience, 
-                polished designs, and responsive performance.
+          1- Mining: 
+          <ul>
+            <li>mine contracting</li>
+            <li>mine engineering consulting</li>
+            <li>mine equipment supply and maintenance</li>
+          </ul>
           </p>
           <p className="font-light  text-xs sm:text-sm md:text-base">
-          2- Increased Discoverability: 
-                Having a website allows potential customers to find your business online. 
-                When people search for products or services related to your industry, 
-                having a website ensures that you appear in search results.
+          2- Civil Engineering: 
+                <ul>
+                  <li>Infrastructure Development: Design and construction of essential infrastructure such as roads, bridges, tunnels, and 
+water management systems.</li>
+                  <li>Structural Engineering: Development of structural solutions 
+                  for mining facilities, ensuring stability and safety. </li>
+                  <li>Environmental Engineering: Implementation of systems to manage 
+environmental impacts, including waste management and 
+pollution control</li>
+                  
+                </ul>
           </p>
           <p className="font-light  text-xs sm:text-sm md:text-base">
-          3- 24/7 Availability: 
-                Unlike physical stores, your website is accessible 24/7. 
-                Customers can learn about your offerings, browse products, and make inquiries at any time, 
-                even outside regular business hours.
+          2- Customs clearing: 
+                <ul>
+                  <li>Customs Brokerage: Handling all customs documentation and 
+                  procedures to ensure smooth and timely clearance of goods </li>
+                  <li>Regulatory Compliance: Ensuring all imports and exports meet 
+                  local and international regulatory requirements. </li>
+                  <li>Duty Management: Optimizing duty payments and ensuring 
+                  compliance with trade agreements. </li>
+                  
+                </ul>
           </p>
           <p className="font-light  text-xs sm:text-sm md:text-base">
-          4- Access to New Markets: 
-                A website expands your reach beyond your local area. 
-                You can attract customers from different regions or even globally, 
-                opening up new market opportunities.
+          2- Freight logistics: 
+                <ul>
+                  <li>Transportation Solutions: Providing tailored logistics solutions 
+                  for the transportation of mining materials and equipment </li>
+                  <li>Warehousing and Distribution: Secure warehousing facilities and 
+                  efficient distribution networks to support mining operations. </li>
+                  <li> Supply Chain Coordination: Integrated logistics management to 
+                  ensure timely delivery and reduced transportation costs.</li>
+                  
+                </ul>
           </p>
           <p className="font-light  text-xs sm:text-sm md:text-base">
-          5- Cost-Effective Marketing: 
-                Websites provide a cost-effective way to market your business. 
-                You can use digital marketing channels, such as social media integration and 
-                search engine optimization (SEO), to reach a broader audience.
+          2- Micro Financing: 
+                <ul>
+                  <li>Green Financing: Offering financing solutions for eco-friendly 
+                  and sustainable mining projects </li>
+                  <li>Small Scale Support: Providing microloans to small-scale 
+miners and local businesses to promote economic growth and 
+sustainability. </li>
+                  <li>Financial Advisory: Expert advice on financial planning and 
+                  investment for sustainable mining practices. </li>
+                  
+                </ul>
           </p>
           <p className="font-light  text-xs sm:text-sm md:text-base">
-          6- Direct Sales: 
-                If you offer products, an e-commerce website allows you to sell directly to customers online. 
-                This streamlines the purchasing process and increases sales potential.
-          </p>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-          7- Information and Support: 
-                Use your website to provide FAQs, news updates, 
-                and other helpful information. It becomes a valuable resource for both existing and 
-                potential customers.
-          </p>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-          8- Competitor Intelligence: 
-                Analyze your competitors by studying their websites. 
-                Understand their offerings, pricing, and strategies to stay competitive in the market
-          </p>
+          2- Procurement and Financing: 
+                <ul>
+                  <li>Equipment Procurement: Sourcing and purchasing high-quality 
+                  mining equipment and materials from reliable suppliers. </li>
+                  <li>Financing Solutions: Providing financing options to support the 
+                  acquisition of mining equipment and operational expenses </li>
+                  <li>Supplier Management: Building strong relationships with 
+suppliers to ensure reliable and cost-effective procurement
+ </li>
 
+                </ul>
+          </p>
 
           <Link
               href={"/contact"}
               className="px-6 inline-block bg-[#c44141] mt-2 hover:bg-slate-800 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 text-center  text-white"
             >
-              Contact us
+              Email us
             </Link>
         </ItemLayout>
 
@@ -97,8 +124,11 @@ const Footer = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            Websites From as little as  <sub className="font-semibold text-base">R1000</sub>
+            EG Africa <sub className="font-semibold text-base"> Serving the world</sub>
           </p>
+
+          
+
         </ItemLayout>
 
         <ItemLayout
@@ -106,7 +136,7 @@ const Footer = () => {
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
             750+{" "}
-            <sub className="font-semibold text-base">websites developed</sub>
+            <sub className="font-semibold text-base">projects completed</sub>
           </p>
           </ItemLayout>
 
@@ -116,19 +146,24 @@ const Footer = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Why must you have a Business Mobile Application?
+            Why choose us?
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base">
-            Build a Stronger Brand: Having a mobile app allows you to reinforce your brand identity. 
-            Users interact with your app regularly, which helps create brand recognition and loyalty.
+            <strong>Professionalism:</strong> 
+            We are a company with sound principles, vision, mission and dedication towards excellence.
           </p>
           <p className="font-light  text-xs sm:text-sm md:text-base">
-            Connect with Customers Better: Mobile apps provide a direct channel for communication with your customers. 
-            You can send personalized notifications, updates, and offers, fostering a stronger connection
+            <strong>Flexible</strong>
+            We are always willing to do whatever it takes 
+            to fulfill our responsibilities to our clients and partners
           </p>
           <p className="font-light  text-xs sm:text-sm md:text-base">
-            Provide Value to Customers: Apps allow you to offer additional value to your customers. Whether it’s exclusive discounts, loyalty rewards, 
-            or useful features, an app enhances the overall customer experience
+            <strong>Approach</strong>
+            To us, it is not just work - we take pride in the 
+solutions we deliver. WE APPLY OUR ENGINEERING 
+KNOWLEDGE IN PROBLEM SOLVING AND WE 
+IMPLEMENT THE SOLUTIONS LIKE THE ENTREPRENEUR 
+WE ARE
           </p>
           <p className="font-light  text-xs sm:text-sm md:text-base">
             Improve Customer Engagement: Apps engage users more effectively than other channels. Features like push notifications, 
@@ -140,163 +175,29 @@ const Footer = () => {
           </p>
           <p className="font-light  text-xs sm:text-sm md:text-base">
             Improve Customer Interactions: Apps facilitate seamless interactions between customers and your business. 
-            Whether it’s customer support, order tracking, or feedback, an app streamlines communication
+            Whether it is customer support, order tracking, or feedback, an app streamlines communication
           </p>
           <p className="font-light  text-xs sm:text-sm md:text-base">
-           Capitalize on a Niche: If your business caters to a specific niche, an app can target that audience effectively. 
-           Niche apps often provide specialized features that cater to specific user needs
+           <strong> Reliable</strong>
+           The contract is executed and delivered on time, 
+by our technically well experienced and 
+qualified staff
+          </p>
+          <p className="font-light  text-xs sm:text-sm md:text-base">
+           <strong> Customer Care</strong>
+           Every client is our asset and customer 
+satisfaction is our main priority.
+
           </p>
           <Link
               href={"/contact"}
               className="px-6 inline-block bg-[#c44141] mt-2 hover:bg-slate-800 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 text-center  text-white"
             >
-              Contact us
+              Read more about us
             </Link>
         </ItemLayout>
-        <ItemLayout
-          className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
-        >
-          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            Applications From as little as  <sub className="font-semibold text-base">R1000</sub>
-          </p>
-        </ItemLayout>
-
-        <ItemLayout
-          className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
-        >
-          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            500+{" "}
-            <sub className="font-semibold text-base">applications developed</sub>
-          </p>
-          </ItemLayout>
-
-        <ItemLayout
-          className={
-            " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
-          }
-        >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            DATA SCIENCE
-          </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-          The uses of Data Science to a Business
-          </p>
-        </ItemLayout>
-
-        <ItemLayout
-          className={
-            " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
-          }
-        >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-          Making Better Business Decisions:
-          </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-          Companies can use data and risk analysis practices to make informed decisions. 
-          By collecting and analyzing data within the organization, 
-          data scientists provide objective evidence that guides difficult business choices
-          </p>
-        </ItemLayout>
-        <ItemLayout
-          className={
-            " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
-          }
-        >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Measuring Performance
-          </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-          Data science allows businesses to measure performance across the organization. 
-          Trends and empirical evidence help organizations come up with solutions based on data-driven insights.
-          </p>
-        </ItemLayout>
-        <ItemLayout
-          className={
-            " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
-          }
-        >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-          Providing Information to Internal Finances
-          </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-          Data science can predict outcomes, generate financial reports, and analyze economic trends. 
-          This information helps companies make informed decisions related to budgeting, finances, and expenses.
-          </p>
-        </ItemLayout>
-        <ItemLayout
-          className={
-            " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
-          }
-        >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Develop Better Products
-          </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-          Data analysis provides verifiable and evidence-based insights. 
-          Companies can use a data-driven approach to understand their target audiences, 
-          identify preferences, and tailor products accordingly.
-          </p>
-        </ItemLayout>
-        <ItemLayout
-          className={
-            " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
-          }
-        >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Increasing Efficiency
-          </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-          Workplace data collection enables testing and measuring different methods, 
-          leading to increased operational efficiency. 
-          By optimizing daily operations, businesses can handle more workload effectively1
-          </p>
-        </ItemLayout>
+       
         
-        <ItemLayout
-          className={
-            " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
-          }
-        >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Mitigating Risk and Fraud
-          </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-          Data science helps identify patterns associated with fraudulent activities. 
-          By analyzing historical data, companies can reduce the risk of fraud and error.
-          </p>
-        </ItemLayout>
-        <ItemLayout
-          className={
-            " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
-          }
-        >
-          <h2 className="text-xl md:text-2xl text-left w-full capitalize">
-            Predicting Outcomes and Trends
-          </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-          Predictive modeling allows businesses to anticipate future trends, customer behavior, 
-          and market dynamics. This foresight aids in strategic planning and decision-making.
-          </p>
-        </ItemLayout>
-        <ItemLayout
-          className={
-            " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
-          }
-        >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Improving Customer Experiences
-          </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base">
-          Data-driven insights help enhance customer service, personalize experiences, and address pain points. 
-          Understanding customer behavior leads to better service delivery and loyalty
-          </p>
-          <Link
-              href={"/contact"}
-              className="px-6 inline-block bg-[#c44141] mt-2 hover:bg-slate-800 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 text-center  text-white"
-            >
-              So, get it touch with us
-            </Link>
-        </ItemLayout>
 
         <ItemLayout
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
@@ -319,7 +220,7 @@ const Footer = () => {
           className={"col-span-full text-accent"}
         >
           <p className="ml-5 text-xs sm:text-xs">
-            Developed by   {" "} <Link href={"https://zfinitytech.com"}  className=" text-sky-600">ZFinity-Technology</Link>  Need a quick quote?  <Link href={"/contact"}  className=" text-sky-600">Contact us</Link>  Our Applications{" "} <Link href={"https://e-nvoice.zfinitytech.com"}  className=" text-sky-600">Invoice Generator</Link> |  <Link href={"https://e-card.zfinitytech.com"}  className=" text-sky-600">Digital Business Cards Creator</Link> | <Link href={"https://qrcode.zfinitytech.com"}  className=" text-sky-600">QR Code Generator</Link> | <Link href={"https://mylinks.zfinitytech.com"}  className=" text-sky-600">Have all your links in one place</Link>
+            Developed by   {" "} <Link href={"https://zfinitytech.com"}  className=" text-sky-600">ZFinity-Technology</Link>  Need our help?  <Link href={"/contact"}  className=" text-sky-600">Contact us</Link> 
              
           </p>
           

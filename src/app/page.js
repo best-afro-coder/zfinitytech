@@ -1,12 +1,13 @@
 import Image from "next/image";
-import bg from "../../public/background/b6.png";
+import bg from "../../public/images/10.jpg";
+import logo from "../../public/images/logo_trans.svg";
 import RenderModel from "@/components/RenderModel";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/Foo";
 
 import dynamic from "next/dynamic";
 
-const Wizard = dynamic(() => import("@/components/models/Wizard"), {
+const Truck = dynamic(() => import("@/components/models/Truck"), {
   ssr: false,
 });
 
@@ -20,15 +21,15 @@ export default function Home() {
         src={bg}
         alt="background-image"
         fill
-        className="-z-50 w-full h-full object-cover object-center opacity-50"
+        className="-z-50 w-full h-full object-cover object-center opacity-100"
       />
-      
+    
 
       <div className="w-full h-screen">
         
         <Navigation />
         <RenderModel>
-        <Wizard />
+        <Truck />
         </RenderModel>
         <Footer />
       </div>

@@ -75,7 +75,7 @@ export default function Form() {
 
   const onSubmit = (data) => {
     const templateParams = {
-      to_name: "ZFinity Technologies",
+      to_name: "EG Africa",
       from_name: data.name,
       reply_to: data.email,
       phone: data.phone,

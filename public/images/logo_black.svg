@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.660356,0,0,0.953216,308.111,20.6286)">
+        <path d="M2011.89,87.756C2011.89,37.272 1952.72,-3.715 1879.85,-3.715L137.981,-3.715C65.108,-3.715 5.944,37.272 5.944,87.756L5.944,921.159C5.944,971.643 65.108,1012.63 137.981,1012.63L1879.85,1012.63C1952.72,1012.63 2011.89,971.643 2011.89,921.159L2011.89,87.756Z"/>
+    </g>
+    <g transform="matrix(-0.0610956,-1.42189,0.998132,-0.0870338,196.865,950.191)">
+        <path d="M471.025,254.829L534.918,1340.65L407.132,1340.65L471.025,254.829Z" style="fill:rgb(255,196,0);"/>
+    </g>
+    <g transform="matrix(1.82661,0,0,1.35788,-1222.98,-10.5858)">
+        <ellipse cx="1482.91" cy="129.658" rx="50.52" ry="66.865" style="fill:rgb(255,196,0);"/>
+    </g>
+    <g transform="matrix(1.27768,0,0,0.721802,-443.431,227.04)">
+        <text x="621.1px" y="648.232px" style="font-family:'TwCenMT-Italic', 'Tw Cen MT', sans-serif;font-style:italic;font-size:833.333px;fill:rgb(235,235,235);">EG</text>
+    </g>
+    <g transform="matrix(0.941759,0,0,0.738997,123.221,300.47)">
+        <text x="309.064px" y="889.338px" style="font-family:'TwCenMT-BoldItalic', 'Tw Cen MT', sans-serif;font-weight:700;font-style:italic;font-size:416.667px;fill:rgb(235,235,235);">AFRICA</text>
+    </g>
+</svg>

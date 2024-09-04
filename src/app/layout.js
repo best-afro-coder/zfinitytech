@@ -12,12 +12,12 @@ const inter = Inter({
 export const metadata = {
   title: {
     template:
-      "ZFinity Technologies: The Future of IT",
+      "EG Africa",
     default:
-      "ZFinity Technologies: The Future of IT",
+      "EG Africa",
   },
   description:
-    "We do: Software Development, Website Development, Mobile and Desktop Application Development, IoT Development",
+"EG Africa is an energetic, VISION driven, and multi-faceted company organization with roots in South Africa and a growing number of business interests in various countries.",
 };
 
 export default function RootLayout({ children }) {

@@ -20,112 +20,119 @@ export const projectsData = [
 
   {
     id: 1,
-    name: "Invoice Creator",
-    description: "An online Invoice Generator",
-    date: "2023-03-29",
-    demoLink: "https://e-nvoice.zfinitytech.com",
-    imageurl: "/projects/envoice.png",
+    name: "Mining",
+    description: "",
+    date: "",
+    demoLink: "/Mining",
+    imageurl: "/projects/mining.svg",
   },
   {
     id: 2,
-    name: "Digital Business Card",
-    description: "An amazing online App for business cards generation",
-    date: "2023-04-06",
-    demoLink: "https://e-card.zfinitytech.com",
-    imageurl: "/projects/ecard.svg",
+    name: "Construction and Maintenance",
+    description: "",
+    date: "",
+    demoLink: "/Construction_and_Maintenance",
+    imageurl: "/projects/construction.svg",
   },
 
   {
     id: 3,
-    name: "QR Code generator",
-    description: "An amazing qr code generator",
-    date: "2022-04-22",
-    demoLink: "https://qrcode.zfinitytech.com",
-    imageurl: "/projects/qr-code.png",
+    name: "Civil Engineering",
+    description: "",
+    date: "",
+    demoLink: "/Civil_Engineering",
+    imageurl: "/projects/civil.svg",
   },
 
   {
     id: 4,
-    name: "My Links",
-    description: "An App that lists all your links",
-    date: "2022-04-22",
-    demoLink: "https://mylinks.zfinitytech.com",
-    imageurl: "/projects/mylinks.png"
+    name: "Export and Import",
+    description: "",
+    date: "",
+    demoLink: "/Export_and_Import",
+    imageurl: "/projects/import.svg"
   },
 
   {
     id: 5,
-    name: "IFibreyethu Pvt Ltd",
-    description: "We did some work for IFibreythu, an engineering company",
-    date: "2024-04-22",
-    demoLink: "https://ifibreyethu.co.za",
-    imageurl: "/projects/ifibre.svg"
+    name: "Customs Clearing",
+    description: "",
+    date: "",
+    demoLink: "/Custom_Clearing",
+    imageurl: "/projects/customs.svg"
   },
 
   {
     id: 6,
-    name: "AZ Group",
-    description: "We are the IT consultency for AZ Group",
-    date: "From 2020-",
-    demoLink: "https://azgroup.co.za",
-    imageurl: "/projects/az.png"
+    name: "Freight Logistics",
+    description: "",
+    date: "",
+    demoLink: "/Fright_Logistics",
+    imageurl: "/projects/freight.svg"
   },
   
   {
     id: 7,
-    name: "Novels Mobile App",
-    description: "Novels by Levis Mahlatini",
-    date: "2017-",
-    demoLink: "https://levismahlatini.com/novels",
-    imageurl: "/projects/lm.png"
+    name: "Micro-financing",
+    description: "",
+    date: "",
+    demoLink: "/Micro_Financing",
+    imageurl: "/projects/micro.svg"
   },
   {
     id: 8,
-    name: "Online Magazine",
-    description: "We created a business Magazine",
-    date: "2024-02-18",
-    demoLink: "https://bizims.mgzine.co.za",
-    imageurl: "/projects/bizims.png"
+    name: "Security",
+    description: "",
+    date: "",
+    demoLink: "/Security",
+    imageurl: "/projects/security.svg"
   },
 
   {
     id: 9,
-    name: "Exclusive Projects",
-    description: "We created this amazing website",
-    date: "2023-01-15",
-    demoLink: "https://xclusiveprojects.co.za",
-    imageurl: "/projects/ex.svg"
+    name: "Precious metal refinery",
+    description: "",
+    date: "",
+    demoLink: "/Refinery",
+    imageurl: "/projects/metal.svg"
   },
  
-  
+  {
+    id: 9,
+    name: "Procurement and financing",
+    description: "",
+    date: "",
+    demoLink: "Procurement_and_Financing",
+    imageurl: "/projects/procurement.svg"
+  },
 ];
 
 export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false },
   { label: "About", link: "/about", icon: "about", newTab: false },
-  { label: "Projects", link: "/projects", icon: "projects", newTab: false },
-  { label: "Contact", link: "/contact", icon: "contact", newTab: false },
+  { label: "Services", link: "/projects", icon: "service", newTab: false },
+  { label: "Mail", link: "/contact", icon: "mail", newTab: false },
   {
-    label: "e-nvoice",
-    link: "https://e-nvoice.zfinitytech.com",
-    icon: "e-nvoice",
+    label: "Contact",
+    link: "/telephone:",
+    icon: "contact",
     newTab: true,
   },
   {
-    label: "e-card",
-    link: "https://e-card.zfinitytech.com",
-    icon: "e-card",
+    label: "Info",
+    link: "/Info",
+    icon: "info",
+    newTab: false,
+  },
+  {
+    label: "Locate",
+    link: "/Locate",
+    icon: "locate",
     newTab: true,
   },
   {
-    label: "mylinks",
-    link: "https://mylinks.zfinitytech.com",
-    icon: "mylinks",
-    newTab: true,
-  },
-  {
-    label: "qr-code",
-    link: "https://qrcode.zfinitytech.com",
+    label: "developer",
+    link: "https://zfinitytech.com",
     icon: "qr-code",
     newTab: true,
   },

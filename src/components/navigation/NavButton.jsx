@@ -1,12 +1,13 @@
 import {
-  WalletCards,
-  ClipboardList,
-  Link2,
   QrCode,
   Home,
-  Palette,
+  Info,
   Phone,
-  User
+  User,
+  Mail,
+  Locate,
+  Services,
+  Archive
 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -20,16 +21,16 @@ const getIcon = (icon) => {
       return <Home className="w-full h-auto" strokeWidth={1.5} />;
     case "about":
       return <User className="w-full h-auto" strokeWidth={1.5} />;
-    case "projects":
-      return <Palette className="w-full h-auto" strokeWidth={1.5} />;
+    case "services":
+      return <Archive className="w-full h-auto" strokeWidth={1.5} />;
     case "contact":
       return <Phone className="w-full h-auto" strokeWidth={1.5} />;
-    case "e-card":
-      return <WalletCards   className="w-full h-auto" strokeWidth={1.5} />;
-    case "e-nvoice":
-      return <ClipboardList className="w-full h-auto" strokeWidth={1.5} />;
-    case "mylinks":
-      return <Link2 className="w-full h-auto" strokeWidth={1.5} />;
+    case "info":
+      return <Info   className="w-full h-auto" strokeWidth={1.5} />;
+    case "mail":
+      return <Mail className="w-full h-auto" strokeWidth={1.5} />;
+    case "locate":
+      return <Locate className="w-full h-auto" strokeWidth={1.5} />;
     case "qr-code":
       return <QrCode className="w-full h-auto" strokeWidth={1.5} />;
 

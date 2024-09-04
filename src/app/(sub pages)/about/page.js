@@ -20,7 +20,7 @@ export default function Home() {
         src={bg}
         priority
         sizes="100vw"
-        alt="ZFinity Technology's about page background image"
+        alt="EG Africa's about page background image"
         className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-50"
       />
 
@@ -33,10 +33,10 @@ export default function Home() {
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
           <h1 className=" pt-20 font-bold  text-4xl xs:text-5xl sm:text-6xl  lg:text-7xl text-accent">
-            ZFinity Technologies
+            EG AFRICA
           </h1>
           <p className="font-light text-foreground text-lg">
-            Re-thinking Technology
+            At your service
           </p>
         </div>
       </div>

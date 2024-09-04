@@ -19,10 +19,10 @@ export default function Home() {
   return (
     <>
 
-    <h1 className="font-bold  text-2xl xs:text-3xl sm:text-4xl  lg:text-5xl text-accent"> Some of our projects </h1>
+    <h1 className="font-bold  text-2xl xs:text-3xl sm:text-4xl  lg:text-5xl text-accent"> What we offer </h1>
       <Image
         src={bg}
-        alt="Next.js Portfolio website's about page background image"
+        alt="Services background image"
         className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-50"
         priority
         sizes="100vw"
